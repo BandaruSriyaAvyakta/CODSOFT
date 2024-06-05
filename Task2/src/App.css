@@ -1,0 +1,8 @@
+.App {
+  text-align: center;
+  background-image: url('./components/pic2.png'); /* Use the correct path to the image */
+  background-size: cover; /* Ensure the image covers the entire background */
+  background-position: center; /* Center the background image */
+  background-repeat: no-repeat; /* Prevent the background image from repeating */
+  min-height: 100vh; /* Ensure the background covers the full viewport height */
+}

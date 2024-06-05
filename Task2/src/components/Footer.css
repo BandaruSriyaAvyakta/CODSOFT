@@ -1,0 +1,23 @@
+.portfolio-footer {
+    background-color: #032461;
+    padding: 20px;
+    text-align: center; /* Centered text for the footer */
+    color: #f3f308; /* Bright yellow text color */
+}
+
+.portfolio-footer.contact-info {
+    margin-bottom: 20px;
+    text-align: left; /* Align contact info to the left */
+}
+
+.portfolio-footer.contact-info h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #FFFF00; /* Bright yellow text color */
+}
+
+.portfolio-footer.contact-info p {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+    color: #FFFF00; /* Bright yellow text color */
+}

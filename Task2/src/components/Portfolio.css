@@ -1,0 +1,325 @@
+.portfolio-header-card {
+  background-color: #ffffffb3; /* Light cream color */
+  padding: 30px; /* Reduced padding */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.648);
+  margin: 30px; /* Reduced margin */
+  text-align: center;
+  position: relative;
+  height: auto; /* Ensure the card height adjusts based on content */
+}
+
+.portfolio-header {
+  background-color: transparent;
+  color: #333333;
+  position: relative;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-text {
+  max-width: calc(40% - 0.5cm);
+  margin-right: 0.5cm;
+  text-align: left;
+}
+
+.header-image {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 200px;
+}
+
+.profile-photo {
+  width: 150px; /* Fixed width */
+  height: calc(100% + 100px); /* Cover the same height as the card */
+  object-fit: cover; /* Ensures the image covers the area without stretching */
+  /* No border-radius applied, keeping the shape rectangular */
+}
+
+.portfolio-about .about-card {
+  display: flex;
+  margin: 30px; /* Reduced margin */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.648);
+  padding: 20px; /* Reduced padding */
+  background-color: #ffffffb3; /* Light cream color */
+}
+
+.about-card .about-image, .about-card .about-content {
+  flex: 1;
+}
+
+.about-card .about-image img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.about-card .about-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* New styles to increase font size */
+.about-card .about-content h2 {
+  font-size: 2em; /* Increase the heading size */
+}
+
+.about-card .about-content p {
+  font-size: 1.2em; /* Increase the paragraph size */
+}
+
+/* Skills Section */
+.portfolio-skills .skills-card {
+  display: flex;
+  margin: 30px; /* Reduced margin */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.648);
+  padding: 20px; /* Reduced padding */
+  background-color: #ffffffb3; /* Light cream color */
+}
+
+.skills-card .skills-content, .skills-card .skills-image {
+  flex: 1;
+}
+
+.skills-card .skills-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; /* Center align items */
+}
+
+.skills-card .skills-image img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.skills-card .skills-content h1 {
+  font-size: 2.5em; /* Increase the heading size */
+}
+
+.skills-list-card {
+  background-color: #FFD0D0; /* Light pink background */
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 20px; /* Space between the heading and the list */
+  width: 80%; /* Set a specific width */
+  max-width: 500px; /* Max width to ensure it doesn't get too large */
+}
+
+.skills-list-card ul {
+  font-size: 1.2em; /* Increase the list size */
+  list-style-type: none;
+  padding: 0;
+}
+
+.skills-list-card ul li {
+  margin-bottom: 10px; /* Space between list items */
+}
+
+/* General Card Styles */
+.portfolio-project-card {
+  display: flex;
+  margin: 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.648);
+  padding: 20px;
+  background-color: #ffffffb3; /* Light cream color */
+}
+
+/* Left Half of the Card (Image) */
+.project-image {
+  flex: 1;
+  max-width: 50%; /* Ensure it takes up half the card */
+}
+
+.project-image img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+/* Right Half of the Card (Content) */
+.project-content {
+  flex: 1;
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.project-content h3 {
+  font-size: 2em; /* Increase the heading size */
+  margin-bottom: 10px;
+}
+
+.project-content p {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.project-content ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+.project-content li {
+  margin-bottom: 5px;
+  font-size: 1em;
+}
+
+/* Resume Section */
+.portfolio-resume .resume-card {
+  display: flex;
+  margin: 30px; /* Adjust margin as needed */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.648);
+  padding: 20px; /* Adjust padding as needed */
+  background-color: #ffffffb3; /* Light cream color */
+  align-items: center; /* Center align items */
+}
+
+.resume-card .resume-content {
+  flex: 1;
+  padding-right: 20px; /* Space between text and image */
+}
+
+.resume-card .resume-content h3 {
+  font-size: 2em; /* Increase the heading size */
+  margin-bottom: 10px;
+}
+
+.resume-card .resume-content p {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.resume-card .resume-image {
+  flex: 1;
+  max-width: 50%; /* Ensure it takes up half the card */
+}
+
+.resume-card .resume-image img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+/* Achievements and Certifications Section */
+.portfolio-achievements {
+  margin: 30px; /* Adjust margin as needed */
+}
+
+.achievements-card {
+  display: flex;
+  margin: 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.648);
+  padding: 20px;
+  background-color: #ffffffb3; /* Light cream color */
+}
+
+.achievements-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 20px; /* Space between content and image */
+}
+
+.achievement {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.badge {
+  width: 50px; /* Small size for badges */
+  margin-right: 20px;
+}
+
+.achievements-image {
+  flex: 1;
+  text-align: right;
+}
+
+.ach-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+/* Proficiency Section */
+.portfolio-proficiency {
+  margin: 30px; /* Adjust margin as needed */
+}
+
+.proficiency-card {
+  display: flex;
+  margin: 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.648);
+  padding: 20px;
+  background-color: #ffffffb3; /* Light cream color */
+}
+
+/* Left Half of the Card (Image) */
+.proficiency-image {
+  flex: 1;
+  max-width: 50%; /* Ensure it takes up half the card */
+}
+
+.proficiency-image img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+/* Right Half of the Card (Content) */
+.proficiency-content {
+  flex: 1;
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.proficiency-content h3 {
+  font-size: 1.5em; /* Decrease the heading size */
+    text-align: left; /* Explicitly set to left */
+  }
+  
+
+.proficiency-content ul {
+  display: flex; /* Display the list items horizontally */
+  flex-wrap: wrap; /* Allow list items to wrap to next line */
+  list-style-type: none;
+  padding: 0;
+}
+
+.proficiency-content ul li {
+  margin-right: 20px; /* Space between list items */
+  font-size: 1em;
+}
+
+.tech-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px; /* Space between buttons */
+  margin-top: 10px; /* Space above the buttons */
+}
+
+.tech-button {
+  background-color: #007bffd7; /* Example blue background */
+  color: white; /* White text */
+  border: none; /* Remove borders */
+  padding: 5px 10px; /* Padding inside the button */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Change cursor to pointer on hover */
+  font-size: 0.9em; /* Smaller font size */
+}
+
+.tech-button:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+}
