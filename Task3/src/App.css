@@ -1,0 +1,85 @@
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url('./components/mint2.jpeg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.Header {
+  height: 5%;
+}
+
+.calculator {
+  position: relative; /* Ensure this is added */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  width: 80%;
+  max-width: 360px;
+  margin: 0.5cm auto 2rem;
+  border: 2px solid #fffafa;
+  box-shadow: 0px 0px 10px rgba(71, 49, 49, 0.2);
+  transition: transform 0.2s ease-in-out;
+}
+
+.calculator:hover {
+  transform: scale(1.05);
+}
+
+.calculator input[type="text"] {
+  width: 85%;
+  height: 70px;
+  font-size: 30px;
+  text-align: right;
+  margin-bottom: 10px;
+  margin-top: 0.5cm;
+  background-color: #fffcfc;
+  border: none;
+  padding: 0.5rem;
+  border-radius: 8px;
+}
+
+.key-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  width: calc(100% - 1cm);
+  padding: 0.5cm;
+}
+
+.key-grid button {
+  height: 50px;
+  border: none;
+  cursor: pointer;
+  color: rgb(44, 1, 97);
+  font-size: 20px;
+  background-color: #ffffff;
+  transition: transform 0.2s ease-in-out;
+  border-radius: 15px;
+}
+
+.key-grid button:hover {
+  background-color: rgb(187, 102, 223);
+  color: #ffffff;
+  transform: scale(1.1);
+}
+
+.history {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 18px;
+  color: rgb(64, 10, 243);
+}
+.input-container {
+  display: flex;
+  align-items: center;
+}
+
+
